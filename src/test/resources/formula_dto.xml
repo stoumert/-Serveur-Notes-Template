@@ -1,0 +1,29 @@
+<CourseFormulaDTO>
+    <root type="max">
+        <children>
+            <children type="variable">
+                <name>ET</name>
+            </children>
+            <children type="sum">
+                <children>
+                    <children type="weight">
+                        <weight>0.5</weight>
+                        <child type="variable">
+                            <name>ET</name>
+                        </child>
+                    </children>
+                    <children type="weight">
+                        <weight>0.5</weight>
+                        <child type="variable">
+                            <name>CC</name>
+                        </child>
+                    </children>
+                </children>
+            </children>
+        </children>
+    </root>
+    <variableNames>
+        <variableNames>ET</variableNames>
+        <variableNames>CC</variableNames>
+    </variableNames>
+</CourseFormulaDTO>
